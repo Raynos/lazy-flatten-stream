@@ -1,0 +1,31 @@
+{
+  "name": "lazy-expand-stream",
+  "version": "0.0.1",
+  "description": "Flatten a stream of streams into a single stream",
+  "keywords": [],
+  "author": "Raynos <raynos2@gmail.com>",
+  "repository": "git://github.com/Raynos/lazy-expand-stream.git",
+  "main": "index",
+  "homepage": "https://github.com/Raynos/lazy-expand-stream",
+  "contributors": [
+    {
+      "name": "Jake Verbaten"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/Raynos/lazy-expand-stream/issues",
+    "email": "raynos2@gmail.com"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/Raynos/lazy-expand-stream/raw/master/LICENSE"
+    }
+  ],
+  "scripts": {
+  }
+}

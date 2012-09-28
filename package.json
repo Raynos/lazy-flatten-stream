@@ -1,6 +1,6 @@
 {
   "name": "lazy-flatten-stream",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Flatten a stream of streams into a single stream",
   "keywords": [],
   "author": "Raynos <raynos2@gmail.com>",

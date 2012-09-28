@@ -1,9 +1,8 @@
-var from = require("read-stream")
-    , to = require("write-stream")
+var from = require("read-stream").fromArray
+    , to = require("write-stream").toArray
     , flatten = require("..")
     , map = require("lazy-map-stream")
     , assert = require("assert")
-    , list = []
 
 // expand(stream, iterator) -> flatten(map(stream, iterator))
 var flattened = expand(from([
@@ -14,7 +13,7 @@ var flattened = expand(from([
     return from(list)
 })
 
-flattened.pipe(to(list, function () {
+flattened.pipe(to([], function (list) {
     // The flattened values
     assert.deepEqual(list, [1,2,3,4,5,6,7,8,9])
     console.log("list", list)
